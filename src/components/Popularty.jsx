@@ -12,8 +12,8 @@ import secure from "../assets/img/png/secure.png";
 function Popularty() {
   return (
     <>
-      <section className="py-5 ">
-        <Container className="py-5">
+      <section className="py-lg-5 overflow-hidden">
+        <Container className="py-lg-5">
           <Row className="">
             <div className="col-lg-5">
               <img className="w-100" src={product} alt="img" />

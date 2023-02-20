@@ -7,7 +7,7 @@ import panda3 from "../assets/img/webp/panda3.webp";
 function Pandas() {
   return (
     <>
-      <section className="py-5 sec_panda_bgimg">
+      <section className="pt-lg-5 sec_panda_bgimg overflow-hidden">
         <Container className="py-5">
           <Row className=" justify-content-center d-none d-md-flex py-5">
             <div className="col-lg-4 col-md-6">

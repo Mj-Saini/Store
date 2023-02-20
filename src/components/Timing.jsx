@@ -1,10 +1,12 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
+import shodow from "../assets/img/png/shodow.png";
 
 function openTime() {
   return (
     <>
-      <section className="py-lg-5 my-lg-5">
+      <section className="pt-lg-5 position-relative overflow-hidden">
+        <img className="blur_body" src={shodow} alt="" />{" "}
         <Container>
           <h2 className=" ff_philosopher fw-normal fs_48 text-white text-center">
             Store <span className="text_gradiant"> Hours</span>

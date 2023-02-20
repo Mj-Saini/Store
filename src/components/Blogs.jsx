@@ -7,7 +7,7 @@ import odio from "../assets/img/png/odio.png";
 function Items() {
   return (
     <>
-      <section className="bg_img_order py-5">
+      <section id="blog" className="sec_blog_bgimg py-5 overflow-hidden">
         <Container>
           <h2 className=" ff_philosopher fw-bold fs_48 text-center text-white">
             Latest <span className="text_gradiant">Blogs</span> And
@@ -26,7 +26,7 @@ function Items() {
                   <h2 className="ff_montserrat fw-semibold fs_24 text-white pt-3">
                     Integer vulputate
                   </h2>
-                  <p className=" ff_montserrat fw-normal fs_16 text-white mb-5">
+                  <p className=" ff_montserrat fw-normal fs_16 text-white mb-5 pb-xxl-4 pb-xl-0 pb-md-4">
                     Nulla vitae imperdiet molestie pulvinar neque. Urna senectus
                     pharetra odio sed senectus sed morbi suspendisse convallis.{" "}
                   </p>
@@ -44,7 +44,7 @@ function Items() {
             <div className="col-lg-4 col-sm-6">
               <article className="about_blur p-2 h-100">
                 <img className="w-100" src={lectus} alt="itmes-img" />
-                <article className="px-3">
+                <article className="px-3 pb-4">
                   {" "}
                   <p className=" ff_montserrat fw-normal fs_12 text-white mb-0 mt-2">
                     12 Dec 2022

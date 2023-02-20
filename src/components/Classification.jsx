@@ -6,8 +6,8 @@ import mask from "../assets/img/png/mask1.png";
 function Classification() {
   return (
     <>
-      <section className="classification_bg_img py-5 ">
-        <Container className="pt-5">
+      <section className="classification_bg_img py-lg-5 py-4 mt-lg-5 overflow-hidden">
+        <Container className="pt-lg-5 z_index mt-lg-5">
           <Row>
             <div className="col-lg-6 mb-5 position-relative">
               <img

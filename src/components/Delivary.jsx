@@ -5,7 +5,7 @@ import leaves from "../assets/img/png/leaves.png";
 function Delivary() {
   return (
     <>
-      <section>
+      <section className=" overflow-hidden">
         <Container>
           <Row className=" align-items-center">
             <div className="col-xl-7 col-lg-6">

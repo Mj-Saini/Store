@@ -5,9 +5,9 @@ import logo from "../assets/img/png/logo.png";
 function Footer() {
   return (
     <>
-      <section className="footer_bg_img pt-5">
+      <section className="footer_bg_img pt-5 bg-opacity-50">
         <Container className="">
-          <Row className=" justify-content-center ">
+          <Row className=" justify-content-center pt-5">
             <div className="col-md-8 mx-auto">
               <article className="d-flex flex-column align-items-center ">
                 <span>

@@ -6,7 +6,7 @@ import mask1 from "../assets/img/png/mask1.png";
 function Range() {
   return (
     <>
-      <section className="py-4 pt-lg-5">
+      <section className="py-4 pt-lg-5 overflow-hidden">
         <Container className="my-lg-5 position-relative px-4 mt-4">
           <img
             className=" position-absolute z_index0 bottom-0"

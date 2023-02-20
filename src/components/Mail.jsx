@@ -9,7 +9,7 @@ import madical from "../assets/img/png/madical.png";
 function Mail() {
   return (
     <>
-      <section className="py-4 py-md-5 about_bg_img about_gradiant">
+      <section className="py-4 py-md-5 about_bg_img about_gradiant overflow-hidden">
         <Container>
           <h2 className="ff_philosopher fw-bold fs_48 text-white text-center">
             Cannabis

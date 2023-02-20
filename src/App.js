@@ -16,10 +16,16 @@ import Blogs from "./components/Blogs";
 import Pandas from "./components/Pandas";
 import Timing from "./components/Timing";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import { Route, Routes } from "react-router";
 
 function App() {
   return (
     <>
+      <Routes>
+        <Route path="/" element={<Header />} />
+        <Route path="/Contact " element={<Contact />} />
+      </Routes>
       <Header />
       <About />
       <Range />

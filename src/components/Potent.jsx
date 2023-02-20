@@ -5,13 +5,13 @@ import cloud from "../assets/img/png/cloud.png";
 function Potent() {
   return (
     <>
-      <section className="overflow-hidden py-5 mt-5">
-        <Container>
+      <section className="overflow-hidden py-5 mt-5 ">
+        <Container className="pb-4">
           <div>
             <h2 className=" ff_philosopher fw-bold fs_48 text-white text-center">
               Potent Cannabis <span className="text_gradiant">Alert</span>
             </h2>
-            <p className=" ff_montserrat fw-normal fs_16 text-white text-center">
+            <p className=" ff_montserrat fw-normal fs_16 text-white text-center mb-0">
               click here to try our most potent hand picked craft cannabis
             </p>
           </div>
@@ -58,7 +58,7 @@ function Potent() {
           <img className="potent_img" src={potent} alt="img" />
           <span className="translate-middle-y pe-3 mt_50">
             <a
-              className="transition_500 white_space btn fw-bold fs_20 ff_montserrat "
+              className="transition_500 white_space btn1 fw-bold fs_20 ff_montserrat "
               href="#"
             >
               Take me to space cannabis

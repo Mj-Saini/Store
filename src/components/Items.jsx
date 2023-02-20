@@ -3,12 +3,17 @@ import { Carousel, Container, Row } from "react-bootstrap";
 import patch from "../assets/img/png/patch.png";
 import atomic from "../assets/img/png/atomic.png";
 import sticks from "../assets/img/png/sticks.png";
+import shodow from "../assets/img/png/shodow.png";
 
 function Items() {
   return (
     <>
-      <section className="sec_panda_bgimg py-5">
-        <Container>
+      <section
+        id="shop"
+        className="sec_panda_bgimg py-lg-5 position-relative overflow-hidden"
+      >
+        <img className="blur_body1" src={shodow} alt="" />{" "}
+        <Container className=" z_index">
           <h2 className=" ff_philosopher fw-bold fs_48 text-center text-white">
             Most <span className="text_gradiant">Popular</span> Items
           </h2>

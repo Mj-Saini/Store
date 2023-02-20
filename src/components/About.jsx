@@ -9,7 +9,10 @@ import last from "../assets/img/png/last.png";
 function About() {
   return (
     <>
-      <section className="py-4 py-md-5 about_bg_img about_gradiant">
+      <section
+        id="about"
+        className="py-4 py-md-5 about_bg_img about_gradiant overflow-hidden"
+      >
         <Container>
           <Row className=" align-items-center justify-content-center">
             <div className="col-xl-7 col-lg-6 ">
