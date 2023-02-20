@@ -85,7 +85,7 @@ function Header() {
                     ABOUT
                   </a>
                 </li>
-                <Link to="/contact">
+                <Link to="/Contact">
                   <li>
                     <a
                       class=" ff_montserrat fw-normal fs_16 text-white z_index text_stroke "

@@ -19,7 +19,7 @@ function Contacts() {
   return (
     <>
       {" "}
-      <section className="contect_bg_img ">
+      <section className="contect_bg_img">
         <nav className=" pt-3 pb-5 mb-5">
           <Container>
             <div
@@ -186,7 +186,7 @@ function Contacts() {
           </p>
         </div>
       </section>
-      <section>
+      <section className="pb-4">
         {" "}
         <Container>
           <Row className=" align-items-center">
@@ -233,12 +233,12 @@ function Contacts() {
                     htmlFor=""
                   >
                     <input
-                      className="w_45 blur_bg_range rounded-2 px-4 py-2"
+                      className="w_49 blur_bg_range rounded-2 px-4 py-2"
                       type="text"
                       placeholder="First name"
                     />
                     <input
-                      className="w_45 blur_bg_range rounded-2 px-4 py-2"
+                      className="w_49 blur_bg_range rounded-2 px-4 py-2"
                       type="text"
                       placeholder="Last name"
                     />
@@ -250,12 +250,12 @@ function Contacts() {
                   >
                     {" "}
                     <input
-                      className="w_45 blur_bg_range rounded-2 px-4 py-2"
+                      className="w_49 blur_bg_range rounded-2 px-4 py-2"
                       type="text"
                       placeholder="Email address"
                     />
                     <input
-                      className="w_45 blur_bg_range rounded-2 px-4 py-2"
+                      className="w_49 blur_bg_range rounded-2 px-4 py-2"
                       type="text"
                       placeholder="Phone number"
                     />
@@ -265,7 +265,7 @@ function Contacts() {
                     name=""
                     id=""
                     cols="5"
-                    rows="10"
+                    rows="3"
                     placeholder="Message..."
                     className="mt-2 resize_none w-100 blur_bg_range px-4 py-2 mb-5"
                   ></textarea>
